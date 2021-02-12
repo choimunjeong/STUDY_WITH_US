@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+  .joinContainer {
+            width: 628px;
+            height: 533px;
+            margin: 0 auto;
+            margin-top: 100px;
+        }
+
+        .logo_container {
+            text-align: center;
+        }
+
+        .logo_container>img {
+            width: 140px;
+             height: 70px;
+        }
+
+        .join_info {
+            width: 628px;
+            height: 420px;
+            margin-top: 38px;
+            padding-left: 0px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .join_info>li {
+            list-style: none;
+            width: 285px;
+            font-weight: bold;
+            border-bottom: 1px solid black;
+            height: 26px;
+            position: relative;
+            font-size: 12px;
+        }
+
+        label {
+            position: absolute;
+        }
+
+        .join_info>li>input {
+            right: 7px;
+            font-size: 10px;
+            position: absolute;
+            width: 189px;
+            height: 13px;
+            border: none;
+        }
+
+        .join_info>li:nth-child(even) {
+            margin-left: 58px;
+        }
+
+        .profile_img {
+            width: 511px;
+            height: 75px;
+        }
+
+        h5 {
+            margin: 0px;
+        }
+
+
+        .profile {
+            display: flex;
+            padding-left: 0px;
+            margin-top: 10px;
+            justify-content: space-between;
+        }
+
+        .profile>li {
+            list-style: none;
+            width: 50px;
+            height: 50px;
+        }
+
+        .profile>li>label {
+            width: 50px;
+            height: 50px;
+        }
+
+        .profile>li>label>img {
+            width: 100%;
+            height: 100%;
+            border-radius: 70%;
+        }
+
+        .join_agree {
+            display: block;
+            font-size: 12px;
+        }
+
+        button {
+            width: 308px;
+            height: 35px;
+            margin-top: 15px;
+            color: white;
+            background-color: #C54840;
+            border: none;
+        }
+
+        span {
+            position: absolute;
+            top: 30px;
+            color: red;
+            font-size: 10px;
+        }
+
+        input[type=radio] {
+            display: none;
+        }
+
+        #dupleChk {
+            width: 40px;
+            height: 25px;
+            line-height: 25px;
+            position: absolute;
+            top: -20px;
+            right: 0px;
+            border-radius: 5px;
+            display: none;
+        }
+        
+        #cancelUse{
+         width: 40px;
+            height: 25px;
+            line-height: 25px;
+            position: absolute;
+            top: -20px;
+            right: 0px;
+            border-radius: 5px;
+            display: none;
+        }
